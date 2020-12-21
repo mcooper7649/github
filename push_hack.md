@@ -16,3 +16,13 @@ Yes: multiple projects exist allowing you to generate and push commits "done in 
 See for instance contribution.io, github-contribution, or gitgardener.
 
 All you need to do, is to push those amended commit on the master branch of your GitHub repo, as I mention here.
+
+
+
+
+example:
+
+1. git add *
+2. git commit -m "github hack test"
+3. git commit --amend --no-edit --date="Tue Dec 21 20:00:00 2020 -0600" 
+4. git push
